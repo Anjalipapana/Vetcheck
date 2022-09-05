@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .main_heading {
+            text-align: center;
+            color: #be123c;
+            font-family: 'Roboto';
+        }
+        .heading_1 {
+            color: #be123c;
+            font-size: x-large;
+            padding-top: 30px;
+        }
+        .heading_2 {
+            font-size: medium;
+        }
+        .heading_3 {
+            font-size: medium;
+            padding-top: 30px;
+        }
+        .table-bordered {
+            padding-top: 50px;
+            table-layout: fixed;
+            width: 100%;
+        }
+        .input_box_1 {
+            padding-left: 15px;
+        }
+
+        .form-control_1{
+            width: 80px;
+        }
+        .form-control_2
+        {
+            width: 50px;
+        }
+        .box {
+            height: 90px;
+            width: 790px;
+        }
+
+        .p1 {
+            color: #be123c;
+        }
+
+        .container_1 {
+            /* padding-right: 100px; */
+            width: 820px;
+        }
+
+        .container_2 {
+            padding-top: 30px;
+        }
+
+        /* .form-label {
+            padding-right: 50px;
+        } */
+
+        .form-check-label {
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+        .form-check-input {
+            padding-right: 50px;
+            margin-left: 0px;
+        }
+
+        .table_head {
+            color: #be123c;
+        }
+
+        .container {
+            width: 820px;
+            height: 1180px;
+            background-color: lightgrey;
+        }
+        .tab_input {
+            width: 149px;
+        }
+.form-control {
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+tr:nth-child(even){
+            background-color: darkgrey;
+}
+.col {
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.small-margin {
+    margin:5px;
+}
+.input-height{height:40px;
+width: 150px;}
+        .input-container{margin-right:8px;}
+        .input-container:last-of-type{margin-right:0px;}
+.container_3 {
+    padding-bottom: 20px;
+}
+    </style>
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="main_heading"> BLOOD GLUCOSE CURVE WORKSHEET</h1>
+            <h2 class="heading_1">Thank you for taking the time to perform this blood glucose curve at home.</h2>
+            <h3 class="heading_2">This will help your veterinary team see a more accurate representation of your pet's
+                blood glucose without the stress of visiting the hospital.</h3>
+            <h4 class="heading_3">Instructions:</h4>
+            <ul>
+                <li> Take a blood glucose measurement before feeding your pet and record the value and time in the
+                    worksheet.</li>
+                <li> Feed your pet the typical amount.</li>
+                <li> Administer insulin as directed by your veterinarian.</li>
+                <li> Obtain blood glucose readings as directed by your veterinarian.It is typical to get a reading every
+                    2-4 hours but this may differ from your veterinarian's recommendation for your pet.</li>
+                <li> Fill in the time you took the reading and the glucose measurement.</li>
+                <li> Submit to your veterinarian for evaluation. Never make insulin adjustments without consulting your
+                    veterinarian.</li>
+            </ul>
+        </div>
+
+                    <div class="container_1">
+                        <div class="d-flex">
+                            <div class="input-container">
+                                 <label for="exampleFormControlInput1" class="form-label">Date</label>
+                                 <input type="date" class="form-control input-height" id="exampleFormControlInput1" placeholder="">
+                             </div>
+                             <div class="input-container">
+                                 <label for="exampleFormControlInput1" class="form-label">Pet's name</label>
+                                 <input type="email" class="form-control input-height" id="exampleFormControlInput1" placeholder="">
+                             </div>
+                             <div class="input-container">
+                                 <label for="exampleFormControlInput1" class="form-label">Time of meals</label>
+                                 <input type="time" class="form-control input-height" id="exampleFormControlInput1" placeholder="">
+                             </div>
+                             <div class="input-container">
+                                 <label for="exampleFormControlInput1" class="form-label">Type of food</label>
+                                 <input type="text" class="form-control input-height" id="exampleFormControlInput1" placeholder="">
+                             </div>
+                             <div class="input-container">
+                                 <label for="exampleFormControlInput1" class="form-label">Type of Insulin</label>
+                                 <input type="text" class="form-control input-height" id="exampleFormControlInput1" placeholder="">
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="container_2">
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">Ate full amount?</label>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Yes</label>
+                                <input type="checkbox" class="form-check-input-1" id="exampleCheck-1">
+                                <label class="form-check-label1" for="exampleCheck1">No</label>
+                            </div>
+                        </div>
+                    </div>
+            
+                
+                    <div class="container_3">
+                        <div class="row">
+                            <div>
+                                <p class="input_box_1">Amount of insulin administered:</p>
+                            </div>
+                            <div class="col">
+                                <input type="Units" class="form-control" placeholder="Units">
+                            </div>
+                            <div>
+                                <p class="input_box_2">at</p>
+                            </div>
+                            <div class="col">
+                                <input type="time" class="form-control">
+                            </div>
+                            <div>
+                                <p class="input_box_1">and</p>
+                            </div>
+                            <div class="col">
+                                <input type="Units" class="form-control" placeholder="Units">
+                            </div>
+                            <div>
+                                <p class="input_box_1">at</p>
+                            </div>
+                            <div class="col">
+                                <input type="time" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+            
+        <div class="container_4">
+            <form method="GET" id="my_form"></form>
+            <table class="table-bordered">
+                <thead>
+                    <tr class="table_head">
+                        <th scope="col">Time</th>
+                        <th scope="col">Blood glucose reading</th>
+                        <th scope="col">Amount of insulin administered</th>
+                        <th scope="col">Amount of food eaten</th>
+                        <th scope="col">Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input"type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                        <td><input class = "tab_input" type="text" name="company" form="my_form" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="comment_box">
+            <p class="p1">Notes: </p>
+            <textarea class="box" id="textAreaExample1" rows="6"></textarea>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
